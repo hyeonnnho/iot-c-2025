@@ -205,4 +205,4 @@
         - swtich
     - 반복제어문
         - for
-        - while
+        - while [C](./Day02/while.c)
