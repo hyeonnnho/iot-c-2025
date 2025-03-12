@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="casting.c" />
+    <ClCompile Include="if.c" />
     <ClCompile Include="oper.c" />
+    <ClCompile Include="oper2.c" />
+    <ClCompile Include="shift.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

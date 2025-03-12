@@ -18,5 +18,17 @@
     <ClCompile Include="oper.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="shift.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="casting.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="oper2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="if.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
