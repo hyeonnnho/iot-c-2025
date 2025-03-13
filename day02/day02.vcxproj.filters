@@ -33,5 +33,14 @@
     <ClCompile Include="while.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="계산기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="구구단.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="제어문.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -25,6 +25,9 @@
     <ClCompile Include="oper2.c" />
     <ClCompile Include="shift.c" />
     <ClCompile Include="while.c" />
+    <ClCompile Include="계산기.c" />
+    <ClCompile Include="구구단.c" />
+    <ClCompile Include="제어문.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
