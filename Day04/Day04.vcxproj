@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="array.c" />
+    <ClCompile Include="array2.c" />
+    <ClCompile Include="array3.c" />
+    <ClCompile Include="dpointer.c" />
+    <ClCompile Include="pointerArray.c" />
     <ClCompile Include="char4.c" />
+    <ClCompile Include="pointerArray2.c" />
     <ClCompile Include="strcat.c" />
     <ClCompile Include="strcmp.c" />
     <ClCompile Include="strcpy.c" />

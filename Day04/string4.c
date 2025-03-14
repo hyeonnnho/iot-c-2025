@@ -1,6 +1,6 @@
 ///*
-//	puts, fputs - Àü¿ë Ãâ·Â ÇÔ¼ö
-//    stdout - Ç¥ÁØ Ãâ·Â ¹öÆÛ(½ºÆ®¸²)
+//	puts, fputs - ì „ìš© ì¶œë ¥ í•¨ìˆ˜
+//    stdout - í‘œì¤€ ì¶œë ¥ ë²„í¼(ìŠ¤íŠ¸ë¦¼)
 //*/
 //#include <stdio.h>
 //
@@ -10,8 +10,8 @@
 //	char* ps = "banana";
 //
 //	printf("%s\n", str);
-//	puts(str);				// ÀÚµ¿ °³Çà
-//    fputs(str, stdout);		// °³Çà ¾ÈµÊ
+//	puts(str);				// ìë™ ê°œí–‰
+//    fputs(str, stdout);		// ê°œí–‰ ì•ˆë¨
 //    puts(ps);
 //    fputs(ps, stdout);
 //

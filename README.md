@@ -315,51 +315,79 @@
         - data : 전역변수, static
         - rod : 문자열 상수, 리터럴
 
-- 문자열 상수 [C](./Day04/string2.c)
-    - 문자열 상수 = 주소
-    - 문자열 리터럴은 읽기 전용 메모리에 저장되어 있어 수정 불가
-    - 문자열을 배열로 선언 시 수정 가능 [C](./Day04/string.c)
+- 문자열
+    - 문자열 상수 [C](./Day04/string2.c)
+        - 문자열 상수 = 주소
+        - 문자열 리터럴은 읽기 전용 메모리에 저장되어 있어 수정 불가
+        - 문자열을 배열로 선언 시 수정 가능 [C](./Day04/string.c)
 
-- 문자 전용 입력 함수 : [C](./Day04/string3.c)
-    - gets : 공백을 포함. 버퍼 오버플로우 가능성
-    - fputs : 공백을 포함. 개행 문자 포함 가능
+    - 문자 전용 입력 함수 : [C](./Day04/string3.c)
+        - gets : 공백을 포함. 버퍼 오버플로우 가능성
+        - fputs : 공백을 포함. 개행 문자 포함 가능
 
-- 문자 전용 출력 함수 : [C](./Day04/string4.c)
-    - puts : 자동으로 개행
-    - fputs : 개행 x
+    - 문자 전용 출력 함수 : [C](./Day04/string4.c)
+        - puts : 자동으로 개행
+        - fputs : 개행 x
 
-- 문자열 관련 함수
-    - 문자열 복사 : [C](./Day04/strcpy.c)
-        - strcpy 함수 
-        ```c
-        strcpy(str, str2); // str에 str2 복사
-        strncpy(str, str2, n); // str에 str2의 n글자 복사
-        ```
-        - 사용자 정의 함수 myStrCopy : [C](./Day04/strcpy.c)
+    - 문자열 관련 함수
+        - 문자열 복사 : [C](./Day04/strcpy.c)
+            - strcpy 함수 
+            ```c
+            strcpy(str, str2); // str에 str2 복사
+            strncpy(str, str2, n); // str에 str2의 n글자 복사
+            ```
+            - 사용자 정의 함수 myStrCopy : [C](./Day04/strcpy.c)
 
-    - 문자열 길이 : [C](./Day04/strlen.c)
-        - strlen 함수 
+        - 문자열 길이 : [C](./Day04/strlen.c)
+            - strlen 함수 
+        
+        - 문자열 연결 : [C](./Day04/strcat.c)
+            - strcat 함수 
+            ```c
+            strcat(str, str2); // str에 str2 연결 후 반환
+            strncat(str, str2, n); // str에 str2의 n글자 연결 후 반환
+            ```
+        - 문자열 비교 : [C](./Day04/strcmp.c)
+            - strcmp 함수
+            ```c
+            strcmp(str, str2);
+            // str 이 사전에서 먼저 나오면 -1 반환, str2가 먼저 나오면 1 반환, 같으면 0을 반환
+            strncmp(str, str2, n);
+            // 첫 n글자 비교
+            ```
+- 변수
+    - 전역 변수 : [C](./Day04/value.c)
+        - 함수 밖에서 선언
+        - 프로그램 실행 시 한번만 초기화되고 값을 계속 유지
+        - 프로그램 종료 시까지 유지
+        - 모든 파일에서 접근 가능(외부파일도 포함)
+
+    - 정적 전역 변수
+        - 함수 밖에서 static 과 함께 선언
+        - 프로그램 실행 시 한번만 초기화되고 값을 계속 유지
+        - 프로그램 종료 시까지 유지
+        - 선언된 파일 내부에서만 접근 가능
+
+    - 지역 변수 
+        - 함수 내에서 선언
+        - 함수가 호출될 때마다 초기화
+        - 함수가 실행될 때 생성, 함수 종료 시 소멸
+        - 선언된 함수 내부에서만 접근 가능
+
+    - 정적 지역 변수 : [C](./Day04/value2.c)
+        - 함수 내에서 static 과 함께 선언
+        - 프로그램 실행 시 한 번만 초기화되고 값을 계속 유지
+        - 프로그램 종료 시까지 유지
+        - 선언된 함수 내부에서만 접근 가능
+
+- 2차원 배열 - (대부분 for문)
+    - 입력 방식 : [C](./Day04/array.c)
+    - int 형 2차원 배열 : [C](./Day04/array2.c)
+    - char 형 2차원 배열 : [C](./Day04/array3.c)
+
+- 포인터 배열 : [C](./Day04/pointerArray.c)
+    - 포인터 배열: 배열(포인터를 저장할 수 있는 배열)
+    - 배열 포인터: 포인터(배열을 가리키는 포인터)
+
+- 2중 포인터 : [C](./Day04/dpointer.c)
     
-    - 문자열 연결 : [C](./Day04/strcat.c)
-        - strcat 함수 
-        ```c
-        strcat(str, str2); // str에 str2 연결 후 반환
-        strncat(str, str2, n); // str에 str2의 n글자 연결 후 반환
-        ```
-    - 문자열 비교 : [C](./Day04/strcmp.c)
-        - strcmp 함수
-        ```c
-        strcmp(str, str2);
-        // str 이 사전에서 먼저 나오면 -1 반환, str2가 먼저 나오면 1 반환, 같으면 0을 반환
-        strncmp(str, str2, n);
-        // 첫 n글자 비교
-        ```
-
-- 전역 변수 : [C](./Day04/value.c)
-- 지역 변수 
-    - 함수가 호출될 때마다 초기화
-    - 함수가 실행될 때 생성, 함수 종료 시 소멸
-- 정적 지역 변수 : [C](./Day04/value2.c)
-    - static 과 함께 선언
-    - 프로그램 실행 시 한 번만 초기화되고 값을 계속 유지
-    - 프로그램 종료 시까지 유지

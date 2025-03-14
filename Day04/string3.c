@@ -1,6 +1,6 @@
 ///*
-//	scanf, gets(°ø¹é±îÁö ÀÔ·Â°¡´É), fgets
-//  stdin - Ç¥ÁØ ÀÔ·Â ¹öÆÛ(ÀÔ·Â ½ºÆ®¸²)
+//	scanf, gets(ê³µë°±ê¹Œì§€ ì…ë ¥ê°€ëŠ¥), fgets
+//  stdin - í‘œì¤€ ì…ë ¥ ë²„í¼(ì…ë ¥ ìŠ¤íŠ¸ë¦¼)
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
@@ -10,22 +10,22 @@
 //	char str[100];
 //
 //	/* scanf */
-//	//printf("¹®ÀÚ¿­ ÀÔ·Â >> ");
+//	//printf("ë¬¸ìì—´ ì…ë ¥ >> ");
 //	//scanf("%s", str);
 //
-//	//printf("¹®ÀÚ¿­ : %s", str);
+//	//printf("ë¬¸ìì—´ : %s", str);
 //	//scanf("%s\n", str);
-//	//printf("´ÙÀ½ ¹®ÀÚ¿­ : %s\n", str);
+//	//printf("ë‹¤ìŒ ë¬¸ìì—´ : %s\n", str);
 //
 //	/* gets */
-//	//printf("°ø¹éÀ» Æ÷ÇÔÇÑ ÀÔ·Â >> ");
+//	//printf("ê³µë°±ì„ í¬í•¨í•œ ì…ë ¥ >> ");
 //	//gets(str);
-//	//printf("ÀÔ·Â ¹®ÀÚ¿­ : %s\n", str);
+//	//printf("ì…ë ¥ ë¬¸ìì—´ : %s\n", str);
 //
 //	/* fgets */
-//	//printf("°ø¹éÀ» Æ÷ÇÔÇÑ ÀÔ·Â >> ");
+//	//printf("ê³µë°±ì„ í¬í•¨í•œ ì…ë ¥ >> ");
 //	//fgets(str, sizeof(str), stdin);
-//	//printf("ÀÔ·Â ¹®ÀÚ¿­ : %s\n", str);
+//	//printf("ì…ë ¥ ë¬¸ìì—´ : %s\n", str);
 //
 //	return 0;
 //}
