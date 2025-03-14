@@ -6,7 +6,7 @@
 //
 //int main()
 //{
-//    char* pary[5] = { "dog", "tiger", "lion", "apple", "banana" }; //char*을 5개 저장할 수 있는 포인터 배열
+//    char* pary[5] = { "dog", "tiger", "lion", "apple", "banana" }; // char*을 5개 저장할 수 있는 포인터 배열
 //    char* pary2[3];
 //    pary2[0] = "abcd";
 //    pary2[1] = "efg";

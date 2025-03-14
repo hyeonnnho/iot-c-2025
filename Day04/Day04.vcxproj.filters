@@ -66,5 +66,11 @@
     <ClCompile Include="dpointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="dpointer2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="arrayPointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
