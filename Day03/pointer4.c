@@ -10,9 +10,9 @@
 //	int a = 10;
 //	int b = 20;
 //
-//	printf("È£Ãâ Àü a: %d, b: %d\n", a, b);
-//	swap(&a, &b);	// ÇÔ¼ö È£Ãâ ½Ã °ª º¹»ç°¡ ÀÌ·ç¾îÁö±â ¶§¹®¿¡ ÇÔ¼ö¿¡¼­ °ªÀÌ ¹Ù²ï´Ù ÇÏ´õ¶óµµ ¿ø·¡ÀÇ °ªÀÌ ¹Ù²îÁö ¾ÊÀ½
-//	printf("È£Ãâ ÈÄ a: %d, b: %d\n", a, b);
+//	printf("í˜¸ì¶œ ì „ a: %d, b: %d\n", a, b);
+//	swap(&a, &b);	// í•¨ìˆ˜ í˜¸ì¶œ ì‹œ ê°’ ë³µì‚¬ê°€ ì´ë£¨ì–´ì§€ê¸° ë•Œë¬¸ì— í•¨ìˆ˜ì—ì„œ ê°’ì´ ë°”ë€ë‹¤ í•˜ë”ë¼ë„ ì›ëž˜ì˜ ê°’ì´ ë°”ë€Œì§€ ì•ŠìŒ
+//	printf("í˜¸ì¶œ í›„ a: %d, b: %d\n", a, b);
 //
 //	return 0;
 //}

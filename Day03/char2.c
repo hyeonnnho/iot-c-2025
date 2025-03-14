@@ -1,5 +1,5 @@
 ///*
-//	getchar, putchar - ¹®ÀÚ Àü¿ë ÇÔ¼ö
+//	getchar, putchar - ë¬¸ì ì „ìš© í•¨ìˆ˜
 //*/
 //#include <stdio.h>
 //
@@ -7,8 +7,8 @@
 //{
 //	int ch;
 //
-//	ch = getchar();		// ÇÑ ¹®ÀÚ¸¦ ÀĞ¾î¿À´Â ÇÔ¼ö
-//	putchar(ch);		// ÇÑ ¹®ÀÚ¸¦ Ãâ·ÂÇÏ´Â ÇÔ¼ö
+//	ch = getchar();		// í•œ ë¬¸ìë¥¼ ì½ì–´ì˜¤ëŠ” í•¨ìˆ˜
+//	putchar(ch);		// í•œ ë¬¸ìë¥¼ ì¶œë ¥í•˜ëŠ” í•¨ìˆ˜
 //	printf("\ninput: %d\n", ch);
 //		
 //	return 0;

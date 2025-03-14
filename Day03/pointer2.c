@@ -1,7 +1,7 @@
 ///*
-//	pointer - ÁÖ¼ÒÀÇ Å©±â´Â ÄÄÇ»ÅÍ È¯°æ¿¡ µû¶ó ´Ù¸£´Ù.
-//	Æ÷ÀÎÅÍ º¯¼öÀÇ Å©±â´Â Å¸ÀÔ¿¡ »ó°ü¾øÀÌ ÀÏÁ¤ÇÏ´Ù.
-//	ÀÌÀ¯´Â ÁÖ¼ÒÀÇ Å©±â°¡ ÀÏÁ¤ÇÏ±â ¶§¹®
+//	pointer - ì£¼ì†Œì˜ í¬ê¸°ëŠ” ì»´í“¨í„° í™˜ê²½ì— ë”°ë¼ ë‹¤ë¥´ë‹¤.
+//	í¬ì¸í„° ë³€ìˆ˜ì˜ í¬ê¸°ëŠ” íƒ€ìž…ì— ìƒê´€ì—†ì´ ì¼ì •í•˜ë‹¤.
+//	ì´ìœ ëŠ” ì£¼ì†Œì˜ í¬ê¸°ê°€ ì¼ì •í•˜ê¸° ë•Œë¬¸
 //*/
 //#include <stdio.h>
 //
@@ -11,11 +11,11 @@
 //	int n;
 //	char* pch = &ch;
 //	int* pn = &n;
-//	printf("char ÁÖ¼Ò Å©±â: %d\t", sizeof(&ch));	// 8¹ÙÀÌÆ®
-//	printf("int ÁÖ¼Ò Å©±â: %d\n", sizeof(&n));		// 8¹ÙÀÌÆ®
-//	printf("char Æ÷ÀÎÅÍ Å©±â: %d\t", sizeof(pch));	// 8¹ÙÀÌÆ®
-//	printf("int Æ÷ÀÎÅÍ Å©±â: %d\n", sizeof(pn));	// 8¹ÙÀÌÆ®
-//	// ÁÖ¼Ò, Æ÷ÀÎÅÍ Å©±â´Â ÄÄÇ»ÅÍ ±âÁØÀ¸·Î º¸±â ¶§¹®¿¡ 8¹ÙÀÌÆ®ÀÌ´Ù(64ºñÆ® ÄÄÇ»ÅÍ ±âÁØ)
+//	printf("char ì£¼ì†Œ í¬ê¸°: %d\t", sizeof(&ch));	// 8ë°”ì´íŠ¸
+//	printf("int ì£¼ì†Œ í¬ê¸°: %d\n", sizeof(&n));		// 8ë°”ì´íŠ¸
+//	printf("char í¬ì¸í„° í¬ê¸°: %d\t", sizeof(pch));	// 8ë°”ì´íŠ¸
+//	printf("int í¬ì¸í„° í¬ê¸°: %d\n", sizeof(pn));	// 8ë°”ì´íŠ¸
+//	// ì£¼ì†Œ, í¬ì¸í„° í¬ê¸°ëŠ” ì»´í“¨í„° ê¸°ì¤€ìœ¼ë¡œ ë³´ê¸° ë•Œë¬¸ì— 8ë°”ì´íŠ¸ì´ë‹¤(64ë¹„íŠ¸ ì»´í“¨í„° ê¸°ì¤€)
 //
 //	return 0;
 //}

@@ -14,10 +14,10 @@
 //
 //	inputAry(&num, &index);
 //	if (index >= 0 && index < size) {
-//		ary[index] = num;  // »ç¿ëÀÚ°¡ ÀÔ·ÂÇÑ °ªÀ» ÇØ´ç À§Ä¡¿¡ ÀúÀå
+//		ary[index] = num;  // ì‚¬ìš©ìê°€ ì…ë ¥í•œ ê°’ì„ í•´ë‹¹ ìœ„ì¹˜ì— ì €ì¥
 //	}
 //	else {
-//		printf("Àß¸øµÈ ÀÎµ¦½º ÀÔ·Â!\n");
+//		printf("ì˜ëª»ëœ ì¸ë±ìŠ¤ ì…ë ¥!\n");
 //	}
 //	printAry(ary, size);
 //
@@ -30,7 +30,7 @@
 //}
 //
 //void inputAry(int* num, int* index) {
-//	printf("¼ö¿Í ÀÎµ¦½º¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ");
+//	printf("ìˆ˜ì™€ ì¸ë±ìŠ¤ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 //	scanf_s("%d %d", num, index);
 //	
 //}
