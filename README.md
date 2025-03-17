@@ -428,11 +428,11 @@
     ```
     1. 그림에 있는 경로를 따라가 exe파일을 찾는다.
 
-    <img src='./image/C002.png'>
+    <img src='./image/C002.png' width='700'>
 
     2. 경로창에 cmd을 입력한다.
 
-    <img src='./image/C003.png'>
+    <img src='./image/C003.png' width='700'>
 
     3. 터미널 창이 뜨면 Day05.exe 1 2 3 을 입력한다
     4. 터미널에서도 실행할 수 있다.
