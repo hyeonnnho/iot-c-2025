@@ -404,5 +404,60 @@
     // &n == pn == *ppn
     // &pn == ppn
     ```
-    - 이중 포인터 써보기 [C](./Day04/dpointer2.c)
+    - 이중 포인터 써보기 : [C](./Day04/dpointer2.c)
         - 배열은 이미 주소이므로 *배열은 이중포인터
+
+# 5일차
+- 대입 연산자 (=)
+    - l-value : 변수, 포인터, 배열의 요소, 구조체 멤버
+    - r-value : 상수, 리터럴, 주소, 연산결과, 함수 반환값, 배열, NULL
+    
+- main 함수 : [C](./Day05/main.c)
+    ```c
+    #include <stdio.h>     
+
+    int main(int argc, char ** argv) // int argc, char ** argv 생략 가능
+    {
+        int i = 0;
+        printf("전달 개수 : %d\n", argc);
+        for (i = 0; i < argc; i++) {
+            //printf("전달 값 : %s", i, argv[i]);
+        }
+        return 0;
+    }   
+    ```
+    1. 그림에 있는 경로를 따라가 exe파일을 찾는다.
+
+    <img src='./image/C002.png'>
+
+    2. 경로창에 cmd을 입력한다.
+
+    <img src='./image/C003.png'>
+
+    3. 터미널 창이 뜨면 Day05.exe 1 2 3 을 입력한다
+    4. 터미널에서도 실행할 수 있다.
+
+- voidpointer
+    - 함수 포인터 : [C](./Day05/voidpointer.c)
+        - 기본 형식 `자료형 (*함수명)(매개변수);`
+        - 함수의 주소를 저장할 수 있는 포인터
+
+    - void* p : [C](./Day05/voidpointer3.c)
+        - 자료형이 정해지지 않은 포인터
+        - p는 역참조가 불가능(타입이 없음)
+        - (int*)p 형변환 후 `*(int*)p`로 참조가 가능함
+    
+    - 계산기 만들기 실습 : [C](./Day05/voidpointer2.c)
+
+- 메모리 동적 할당 : [C]
+    - malloc : [C](./Day05/malloc.c)
+        - 반환값은 void 타입의 포인터
+        - (int*)malloc(sizeof(int)): (int)타입이 차지하는 바이트 수를 계산하여 그만큼 메모리를 할당 후 타입을 지정!
+        - (char*)malloc(strlen(변수)+1): strlen은 실제문자의 길이이므로 + 1(NULL)을 해줘야한다.
+        - free()를 사용하여 메모리 반환(메모리 누수 방지!)
+    
+    - 실습 [C](./Day05/malloc3.c)
+        -  5개의 문자열을 입력받아 각각에 대해 동적으로 메모리를 할당하고, 그 메모리 공간에 입력받은 문자열을 저장한 후 출력
+
+- struct : [C](./Day05/struct.c)
+    - 구조체 : 사용자 정의 자료형(타입), 기존 자료형을 묶어서 만든 복합 자료형
