@@ -11,7 +11,7 @@ typedef struct addr {
     char addr[100];
 } Addr;
 
-void print_list();
+void print_list(Addr* a);
 
 int main() {
     Addr list[3] = { 
@@ -29,7 +29,7 @@ int main() {
     return 0;
 }
 
-void print_list(Addr* a) {
+void print_list(Addr* a) {              // list가 주소이므로 포인터변수를 써야함
     for (int i = 0; i < 3; i++) {
         printf("%s, %d, %s, %s\n", a[i].name, a[i].age, a[i].tel, a[i].addr);
     }
