@@ -42,5 +42,20 @@
     <ClCompile Include="struct2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="struct3.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="struct4.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="struct5.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stpointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stArray.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

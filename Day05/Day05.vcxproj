@@ -131,8 +131,13 @@
     <ClCompile Include="malloc.c" />
     <ClCompile Include="malloc2.c" />
     <ClCompile Include="malloc3.c" />
+    <ClCompile Include="stArray.c" />
+    <ClCompile Include="stpointer.c" />
     <ClCompile Include="struct.c" />
     <ClCompile Include="struct2.c" />
+    <ClCompile Include="struct3.c" />
+    <ClCompile Include="struct4.c" />
+    <ClCompile Include="struct5.c" />
     <ClCompile Include="voidpointer.c" />
     <ClCompile Include="voidpointer2.c" />
     <ClCompile Include="voidpointer3.c" />
