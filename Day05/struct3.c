@@ -1,4 +1,4 @@
-///*
+ï»¿///*
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
@@ -26,8 +26,8 @@
 //	s.pf.height = 170;
 //	s.pf.weight = 70;
 //
-//	printf("Å°: %.1lf\n", s.pf.height);
-//	printf("¸ö¹«°Ô: %.1lf\n", s.pf.weight);
+//	printf("í‚¤: %.1lf\n", s.pf.height);
+//	printf("ëª¸ë¬´ê²Œ: %.1lf\n", s.pf.weight);
 //	
 //
 //	return 0;

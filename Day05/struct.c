@@ -1,36 +1,36 @@
-///*
-//	struct(±¸Á¶Ã¼) - »ç¿ëÀÚ Á¤ÀÇ ÀÚ·áÇü(Å¸ÀÔÀ¸·Î º¸¸é µÊ)
-//	±âÁ¸ ÀÚ·áÇüÀ» ¹­¾î¼­ ¸¸µç º¹ÇÕ ÀÚ·áÇü
+ï»¿///*
+//	struct(êµ¬ì¡°ì²´) - ì‚¬ìš©ì ì •ì˜ ìë£Œí˜•(íƒ€ì…ìœ¼ë¡œ ë³´ë©´ ë¨)
+//	ê¸°ì¡´ ìë£Œí˜•ì„ ë¬¶ì–´ì„œ ë§Œë“  ë³µí•© ìë£Œí˜•
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
 //#include <string.h>
 //
-//struct Human {				// ±¸Á¶Ã¼ ¼±¾ğ struct ±¸Á¶Ã¼¸í
-//	char name[100];				// ¸â¹ö º¯¼ö
-//	int age;					// ¸â¹ö º¯¼ö
+//struct Human {				// êµ¬ì¡°ì²´ ì„ ì–¸ struct êµ¬ì¡°ì²´ëª…
+//	char name[100];				// ë©¤ë²„ ë³€ìˆ˜
+//	int age;					// ë©¤ë²„ ë³€ìˆ˜
 //};
 //
 //int main()
 //{
-//	/* ¸â¹ö Á¢±Ù ¿¬»êÀÚ */
-//	struct Human h;			// struct Human ±¸Á¶Ã¼(Å¸ÀÔ)ÀÇ º¯¼ö h »ı¼º
-//	h.age = 30;				// h°´Ã¼ÀÇ ¸â¹ö age¿¡ 30À» ÀúÀåÇÑ´Ù.
-//	//h.name = "hong kildong"; // ¹®¹ı ¿À·ù(¹è¿­ != ¹®ÀÚ¿­)
+//	/* ë©¤ë²„ ì ‘ê·¼ ì—°ì‚°ì */
+//	struct Human h;			// struct Human êµ¬ì¡°ì²´(íƒ€ì…)ì˜ ë³€ìˆ˜ h ìƒì„±
+//	h.age = 30;				// hê°ì²´ì˜ ë©¤ë²„ ageì— 30ì„ ì €ì¥í•œë‹¤.
+//	//h.name = "hong kildong"; // ë¬¸ë²• ì˜¤ë¥˜(ë°°ì—´ != ë¬¸ìì—´)
 //	strcpy(h.name, "hong kildong");
 //
 //	char str[100] = "hong kildong";
 //	printf("%s\n", str);
 //	char str2[100];
-//	strcpy(str2, "kim chulsu"); // ¹®ÀÚ¿­À» str2¿¡ º¹»ç
+//	strcpy(str2, "kim chulsu"); // ë¬¸ìì—´ì„ str2ì— ë³µì‚¬
 //
-//	//str2 = "kim chulsu";	// l-value¿¡´Â º¯¼ö¸¸, ÁÖ¼Òµµ »ó¼ö
+//	//str2 = "kim chulsu";	// l-valueì—ëŠ” ë³€ìˆ˜ë§Œ, ì£¼ì†Œë„ ìƒìˆ˜
 //	//str2[0] = 'h';
 //	//str2[1] = 'o';
 //	//...
 //	//	str2[10] = '\0';
 //
-//	printf("³ªÀÇ ÀÌ¸§Àº %sÀÌ°í ³ªÀÌ´Â %dÀÔ´Ï´Ù.", h.name, h.age);
+//	printf("ë‚˜ì˜ ì´ë¦„ì€ %sì´ê³  ë‚˜ì´ëŠ” %dì…ë‹ˆë‹¤.", h.name, h.age);
 //
 //	return 0;
 //}

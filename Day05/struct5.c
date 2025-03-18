@@ -1,4 +1,4 @@
-///*
+ï»¿///*
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
@@ -11,23 +11,23 @@
 //} Vision;
 //
 //
-//Vision exchange(Vision);				// ÇÔ¼ö ¿øÇü
+//Vision exchange(Vision);				// í•¨ìˆ˜ ì›í˜•
 //
 //int main() {
 //    Vision rot;
-//    printf("½Ã·Â ÀÔ·Â >> ");
+//    printf("ì‹œë ¥ ì…ë ¥ >> ");
 //    scanf("%lf %lf", &rot.left, &rot.right);
 //
-//    rot = exchange(rot);  // ½Ã·Â ±³È¯ ÇÔ¼ö È£Ãâ
+//    rot = exchange(rot);  // ì‹œë ¥ êµí™˜ í•¨ìˆ˜ í˜¸ì¶œ
 //
-//    printf("¹Ù²ï ½Ã·Â : %.1lf, %.1lf\n", rot.left, rot.right);
+//    printf("ë°”ë€ ì‹œë ¥ : %.1lf, %.1lf\n", rot.left, rot.right);
 //
 //    return 0;
 //}
 //
 //Vision exchange(Vision v) {
 //    Vision temp;
-//    temp.left = v.right;  // ¿ŞÂÊ°ú ¿À¸¥ÂÊ ½Ã·ÂÀ» ±³È¯
+//    temp.left = v.right;  // ì™¼ìª½ê³¼ ì˜¤ë¥¸ìª½ ì‹œë ¥ì„ êµí™˜
 //    temp.right = v.left;
-//    return temp;  // º¯°æµÈ Vision ±¸Á¶Ã¼ ¹İÈ¯
+//    return temp;  // ë³€ê²½ëœ Vision êµ¬ì¡°ì²´ ë°˜í™˜
 //}

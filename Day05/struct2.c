@@ -1,4 +1,4 @@
-///*
+ï»¿///*
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
@@ -15,17 +15,17 @@
 //int main()
 //{
 //	struct mystruct s;
-//	strcpy(s.name, "ÀÌÇöÈ£");
+//	strcpy(s.name, "ì´í˜„í˜¸");
 //	s.age = 27;
 //	s.height = 167;
-//	s.str = (char*)malloc(sizeof(100));		// µ¿Àû ¸Ş¸ğ¸® ÇÒ´ç
-//	printf("ÀÎ»ç¸»: ");
+//	s.str = (char*)malloc(sizeof(100));		// ë™ì  ë©”ëª¨ë¦¬ í• ë‹¹
+//	printf("ì¸ì‚¬ë§: ");
 //	gets(s.str);
 //
-//	printf("ÀÌ¸§: %s\n", s.name);
-//	printf("³ªÀÌ: %d\n", s.age);
-//	printf("Å°: %.1lf\n", s.height);
-//	printf("ÀÎ»ç¸»: %s\n", s.str);
+//	printf("ì´ë¦„: %s\n", s.name);
+//	printf("ë‚˜ì´: %d\n", s.age);
+//	printf("í‚¤: %.1lf\n", s.height);
+//	printf("ì¸ì‚¬ë§: %s\n", s.str);
 //
 //	free(s.str);
 //

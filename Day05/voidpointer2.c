@@ -1,5 +1,5 @@
-///*
-//	ÇÔ¼ö Æ÷ÀÎÅÍ
+ï»¿///*
+//	í•¨ìˆ˜ í¬ì¸í„°
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
@@ -24,34 +24,34 @@
 //int mul(int a, int b) { return a * b; }
 //int div(int a, int b) {
 //	if (b == 0) {
-//		printf("0À¸·Î ³ª´­ ¼ö ¾ø½À´Ï´Ù.\n");
+//		printf("0ìœ¼ë¡œ ë‚˜ëˆŒ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.\n");
 //		return 0;
 //	}
 //	return a / b;
 //}
 //void func(int(*fp)(int, int)) {
 //	char a[10];
-//	printf("¿¬»êÀ» ÀÔ·ÂÇÏ¼¼¿ä >> ");
+//	printf("ì—°ì‚°ì„ ì…ë ¥í•˜ì„¸ìš” >> ");
 //	scanf("%s", a);
 //	int m, n;
-//	printf("µÎ Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä >> ");
+//	printf("ë‘ ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” >> ");
 //	scanf("%d %d", &m, &n);
 //
-//	if (strcmp(a, "+") == 0 || strcmp(a, "´õÇÏ±â") == 0) {
-//		fp = sum; // sum ÇÔ¼ö »ç¿ë
+//	if (strcmp(a, "+") == 0 || strcmp(a, "ë”í•˜ê¸°") == 0) {
+//		fp = sum; // sum í•¨ìˆ˜ ì‚¬ìš©
 //	}
-//	else if (strcmp(a, "-") == 0 || strcmp(a, "»©±â") == 0) {
-//		fp = min; // min ÇÔ¼ö »ç¿ë
+//	else if (strcmp(a, "-") == 0 || strcmp(a, "ë¹¼ê¸°") == 0) {
+//		fp = min; // min í•¨ìˆ˜ ì‚¬ìš©
 //	}
-//	else if (strcmp(a, "*") == 0 || strcmp(a, "°öÇÏ±â") == 0) {
-//		fp = mul; // mul ÇÔ¼ö »ç¿ë
+//	else if (strcmp(a, "*") == 0 || strcmp(a, "ê³±í•˜ê¸°") == 0) {
+//		fp = mul; // mul í•¨ìˆ˜ ì‚¬ìš©
 //	}
-//	else if (strcmp(a, "/") == 0 || strcmp(a, "³ª´©±â") == 0) {
-//		fp = div; // div ÇÔ¼ö »ç¿ë
+//	else if (strcmp(a, "/") == 0 || strcmp(a, "ë‚˜ëˆ„ê¸°") == 0) {
+//		fp = div; // div í•¨ìˆ˜ ì‚¬ìš©
 //	}
 //	else {
-//		printf("Àß¸øµÈ ÀÔ·ÂÀÔ´Ï´Ù.\n");
+//		printf("ì˜ëª»ëœ ì…ë ¥ì…ë‹ˆë‹¤.\n");
 //		return;
 //	}
-//	printf("°á°ú °ª: %d\n", fp(m, n));
+//	printf("ê²°ê³¼ ê°’: %d\n", fp(m, n));
 //}

@@ -1,11 +1,11 @@
-//#include <stdio.h>     
+ï»¿//#include <stdio.h>     
 //
-//int main(int argc, char ** argv) // int argc, char ** argv »ı·« °¡´É
+//int main(int argc, char ** argv) // int argc, char ** argv ìƒëµ ê°€ëŠ¥
 //{
 //	int i = 0;
-//	printf("Àü´Ş °³¼ö : %d\n", argc);
+//	printf("ì „ë‹¬ ê°œìˆ˜ : %d\n", argc);
 //	for (i = 0; i < argc; i++) {
-//		//printf("Àü´Ş °ª : %s", i, argv[i]);
+//		//printf("ì „ë‹¬ ê°’ : %s", i, argv[i]);
 //	}
 //	return 0;
 //}   

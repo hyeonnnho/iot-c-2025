@@ -1,10 +1,10 @@
-//#include <stdio.h>
+ï»¿//#include <stdio.h>
 //#include <stdlib.h>
 //
 //int main() {
 //
 //    char str[5][100];
-//    void* ps[5];								// ¹è¿­ Æ÷ÀÎÅÍ
+//    void* ps[5];								// ë°°ì—´ í¬ì¸í„°
 //    for (int i = 0; i < 5; i++) {
 //        gets(str[i]);
 //        ps[i] = malloc(strlen(str[i]) + 1);

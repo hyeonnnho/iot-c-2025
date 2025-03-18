@@ -1,28 +1,28 @@
-///*
+ï»¿///*
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
 //#include <string.h>
 //#include <stdlib.h>
 //
-//typedef int int32mt;	// int¸¦ int32nt·Î ¾²°Ú´Ù(º°Äª)
+//typedef int int32mt;	// intë¥¼ int32ntë¡œ ì“°ê² ë‹¤(ë³„ì¹­)
 //
 //struct human {
 //	char name[100];
 //	int32mt age;
 //};
-//typedef struct myst {	// struct myst¶ó´Â »õ·Î¿î ÀÚ·áÇü Á¤ÀÇ
+//typedef struct myst {	// struct mystë¼ëŠ” ìƒˆë¡œìš´ ìë£Œí˜• ì •ì˜
 //	int a;
 //	int b;
-//} Myst;					// Myst¶ó´Â º°ÄªÀ¸·Î »ç¿ë
+//} Myst;					// Mystë¼ëŠ” ë³„ì¹­ìœ¼ë¡œ ì‚¬ìš©
 //
 //int main()
 //{
-//	//struct human h = { "È«±æµ¿", 100 };
-//	//struct human h2 = { "°­°¨Âù", 100 };
-//	struct human h = { "È«±æµ¿", 100 },
-//				h2 = { "ÀÌ¼ø½Å", 500 },
-//				h3 = { "±èÀ¯½Å", 200 };
+//	//struct human h = { "í™ê¸¸ë™", 100 };
+//	//struct human h2 = { "ê°•ê°ì°¬", 100 };
+//	struct human h = { "í™ê¸¸ë™", 100 },
+//				h2 = { "ì´ìˆœì‹ ", 500 },
+//				h3 = { "ê¹€ìœ ì‹ ", 200 };
 //	
 //	Myst m;
 //

@@ -1,5 +1,5 @@
-///*
-//    ±¸Á¶Ã¼ Æ÷ÀÎÅÍ
+ï»¿///*
+//    êµ¬ì¡°ì²´ í¬ì¸í„°
 //*/
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
@@ -16,15 +16,15 @@
 //    Score s = { 100, 80, 85 };
 //    Score* ps = &s;
 //
-//    printf("±¹¾î: %d\n", ps->kor);
-//    printf("¿µ¾î: %d\n", ps->eng);
-//    printf("¼öÇÐ: %d\n", (*ps).mat);  // (*ps).mat ¿Í ps->mat °°À½
+//    printf("êµ­ì–´: %d\n", ps->kor);
+//    printf("ì˜ì–´: %d\n", ps->eng);
+//    printf("ìˆ˜í•™: %d\n", (*ps).mat);  // (*ps).mat ì™€ ps->mat ê°™ìŒ
 //
 //
 //    return 0;
 //}
 //
 ///*
-//    ±¸Á¶Ã¼ º¯¼ö¸¦ ÅëÇØ¼­ ¸â¹ö¿¡ Á¢±ÙÇÏ´Â ¹æ¹ýÀº? .(¸â¹öÁ¢±Ù ¿¬»êÀÚ)
-//    ±¸Á¶Ã¼ Æ÷ÀÎÅÍ¸¦ ÅëÇØ¼­ ¸â¹öÀÇ Á¢±ÙÇÏ´Â ¹æ¹ýÀº? ->(È­»ìÇ¥¿¬»êÀÚ, ¾Ö·Î¿ì¿¬»êÀÚ)
+//    êµ¬ì¡°ì²´ ë³€ìˆ˜ë¥¼ í†µí•´ì„œ ë©¤ë²„ì— ì ‘ê·¼í•˜ëŠ” ë°©ë²•ì€? .(ë©¤ë²„ì ‘ê·¼ ì—°ì‚°ìž)
+//    êµ¬ì¡°ì²´ í¬ì¸í„°ë¥¼ í†µí•´ì„œ ë©¤ë²„ì˜ ì ‘ê·¼í•˜ëŠ” ë°©ë²•ì€? ->(í™”ì‚´í‘œì—°ì‚°ìž, ì• ë¡œìš°ì—°ì‚°ìž)
 //*/
